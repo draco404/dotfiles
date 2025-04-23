@@ -5,4 +5,5 @@ fzf
 history.txt
 *.bak
 log.txt
-rclone/rclone.conf
+.config/rclone/rclone.conf
+.config/zsh/sync.zsh

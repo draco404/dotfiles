@@ -1,0 +1,8 @@
+- **.DS_Store
+- StardewValley
+- GameMakerStudio2
+- NuGet
+- **.bak
+- tmux/plugins/**
+- .git/**
+- node_modules/**
