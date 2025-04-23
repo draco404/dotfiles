@@ -1,0 +1,43 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# makes prompt a single line
+[line_break]
+disabled = true
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[cmd_duration]
+min_time = 10_000  # Show command duration over 10,000 milliseconds (= 10 sec)
+format = "took [$duration]($style)"
+
+[character]
+error_symbol = "[X](bold red) "
+
+[directory]
+truncation_length = 2
+truncation_symbol = "…/"
+truncate_to_repo = false
+style = "#f1fa8c"
+
+# These symbols will only show when battery levels are 20% or less
+[battery]
+charging_symbol = "⚡️ "
+discharging_symbol = "💀 "
+
+[[battery.display]]
+threshold = 20 
+style = "bold red"
+
+# Clear visibility for exit codes
+[status]
+style = "bg:red"
+symbol = "💣 "
+format = '[\[$symbol$status\]]($style) '
+disabled = false
+
+[git_branch]
+always_show_remote = true
+style = "bold #F1FA8C"

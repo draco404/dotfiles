@@ -1,0 +1,8 @@
+.DS_Store
+.config/tmux/plugins/
+raycast
+fzf
+history.txt
+*.bak
+log.txt
+rclone/rclone.conf
