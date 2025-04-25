@@ -1,0 +1,15 @@
+# ...
+theme = 'catppuccin'
+
+editor = ""
+dir_editor = ""
+#
+# Auto check for update
+auto_check_update = true
+
+
+default_open_file_preview = true
+show_image_preview = true
+
+nerdfont = true
+file_preview_width = 0

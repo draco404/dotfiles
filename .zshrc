@@ -4,7 +4,6 @@ fi
 
 # Exports
 export ZSH="$HOME/.oh-my-zsh"
-export homebrew_github_api_token=ghp_w6ml7ypivqmnxoz87dvhsrlxi2ohga20k3rh
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export EDITOR=~/nvim-macos-x86_64/bin/nvim
 
@@ -32,6 +31,7 @@ eval "$(zoxide init zsh)"
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 # Custom imports
+source ~/.config/zsh/tokens.zsh
 source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/keybinds.zsh
 source ~/.config/zsh/sync.zsh

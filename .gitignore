@@ -7,3 +7,4 @@ history.txt
 log.txt
 .config/rclone/rclone.conf
 .config/zsh/sync.zsh
+.config/zsh/tokens.zsh
